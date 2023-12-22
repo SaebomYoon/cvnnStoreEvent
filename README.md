@@ -7,9 +7,9 @@
 
 # 실행 방법
 1. Database 접속합니다.
- - 예) user_name = cvnnstore, user_passwd=cvnnsotre 
+  - 예) user_name = cvnnstore, user_passwd=cvnnsotre 
 2. pip_list.txt 참고하여 개발 환경을 세팅합니다.
-3. 코드에서 YOUR_APP_KEY(카카오 맵), app.secret_key, ORACLE_HOME, ORACLE_USER_ID, ORACLE_USER_PW, ORACLE_CONN_STR을 설정해야 합니다. 
+3. 코드에서 YOUR_APP_KEY, app.secret_key, ORACLE_HOME, ORACLE_USER_ID, ORACLE_USER_PW, ORACLE_CONN_STR을 설정해야 합니다. 
 3. apps/app.py 실행합니다.
    * updateEvents()를 실행시켜, 편의점 4곳의 행사정보를 크롤링하여 db에 저장합니다.
    * 이후, updateEvents()를 주석처리하여 scheduler.start() 설정하여 7일 간격으로 db가 업데이트 되도록 합니다.

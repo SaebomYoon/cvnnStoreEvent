@@ -7,7 +7,7 @@
 
 # 실행 방법
 1. Database 접속합니다.
-  * 예) user_name = cvnnstore, user_passwd=cvnnsotre 
+   * 예: user_name = cvnnstore, user_passwd=cvnnsotre 
 2. pip_list.txt 참고하여 개발 환경을 세팅합니다.
 3. 코드에서 YOUR_APP_KEY, app.secret_key, ORACLE_HOME, ORACLE_USER_ID, ORACLE_USER_PW, ORACLE_CONN_STR을 설정해야 합니다. 
 3. apps/app.py 실행합니다.
